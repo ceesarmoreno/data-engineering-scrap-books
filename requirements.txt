@@ -1,0 +1,7 @@
+bs4==0.0.1
+selenium==4.9.1
+webdriver-manager==4.0.1
+pandas==1.5.3
+boto3==1.34.0
+pyarrow==13.0.0
+numpy==1.24.2
