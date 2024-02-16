@@ -7,20 +7,20 @@
 ![arquitetura ](https://github.com/ceesarmoreno/data-engineering-scrap-books/assets/63748142/a5e45b33-6e13-4b99-bf5b-eb0d11a25dbb)
 
 
-**Comandos necessários no docker** 
+### Configurações
 
-docker build -t my_airflow_image .
+#### 1. Comandos necessários no docker 
 
-docker compose up airflow-init
+- docker build -t my_airflow_image .
+- docker compose up airflow-init
+- docker compose up
 
-docker compose up
 
-
-**Airflow:**
-http://localhost:8080
-
-user: airflow 
-pass:airflow
+### Aplicações
+#### Airflow
+- http://localhost:8080
+- user: airflow 
+- pass:airflow
   
-**Streamlit:**
-http://localhost:8501
+#### Streamlit
+- http://localhost:8501
